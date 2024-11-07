@@ -4,15 +4,17 @@
 //                : Used to store personal info.
 
 
-abstract class parentClass{
+abstract class parentClass
+{
     public $name;
 
     abstract protected function cal($a, $b);
 }
 
-class childClass extends parentClass{
-
-    public function cal($c, $d){
+class childClass extends parentClass
+{
+    public function cal($c, $d)
+    {
         echo  "<h1>" . $c + $d . "</h1>";
     }
 }
